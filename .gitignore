@@ -1,3 +1,4 @@
+# コミットしないファイルを定義
 .terraform/
 *.tfstate*
 lambda_function_payload.zip
