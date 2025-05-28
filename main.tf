@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 data "aws_iam_role" "lambda_exec" {
-  name = "demo_lambda_role"  # 既にAWS上に存在するIAMロール名を指定
+  name = "demo_lambda_role"  # 既にAWS上に存在するIAMロール名
 }
 
 resource "aws_lambda_function" "demo" {
